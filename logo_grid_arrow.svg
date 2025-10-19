@@ -1,0 +1,15 @@
+<svg width="800" height="240" viewBox="0 0 800 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="240" fill="#FFFFFF"/>
+  <g transform="translate(20,40)">
+    <g fill="#2E3A47">
+      <rect x="0" y="0" width="18" height="18" rx="4" /><rect x="24" y="0" width="18" height="18" rx="4" /><rect x="48" y="0" width="18" height="18" rx="4" /><rect x="72" y="0" width="18" height="18" rx="4" /><rect x="0" y="24" width="18" height="18" rx="4" /><rect x="24" y="24" width="18" height="18" rx="4" /><rect x="48" y="24" width="18" height="18" rx="4" /><rect x="72" y="24" width="18" height="18" rx="4" /><rect x="0" y="48" width="18" height="18" rx="4" /><rect x="24" y="48" width="18" height="18" rx="4" /><rect x="48" y="48" width="18" height="18" rx="4" /><rect x="72" y="48" width="18" height="18" rx="4" /><rect x="0" y="72" width="18" height="18" rx="4" /><rect x="24" y="72" width="18" height="18" rx="4" /><rect x="48" y="72" width="18" height="18" rx="4" /><rect x="72" y="72" width="18" height="18" rx="4" />
+    </g>
+    <rect x="48" y="24" width="18" height="18" rx="4" fill="#00ADEF"/>
+    <path d="M 120 30 C 200 30, 260 -5, 330 20" stroke="#00ADEF" stroke-width="6" fill="none" />
+    <polygon points="330,20 315,10 315,30" fill="#00ADEF"/>
+  </g>
+  <g transform="translate(380,135)">
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#2E3A47">Track</text>
+    <text x="230" y="0" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#00ADEF">Cell</text>
+  </g>
+</svg>
