@@ -1,0 +1,17 @@
+<svg width="800" height="240" viewBox="0 0 800 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="240" fill="#FFFFFF"/>
+  <g transform="translate(80,120)">
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#00ADEF" stroke-width="6"/>
+    <circle cx="0" cy="0" r="46" fill="none" stroke="#00D1C8" stroke-width="4"/>
+    <path d="M0,0 L70,0" stroke="#00ADEF" stroke-width="6"/>
+    <circle cx="50" cy="0" r="6" fill="#00ADEF"/>
+  </g>
+  <g transform="translate(165,85)">
+    <rect x="0" y="0" width="40" height="28" fill="#2E3A47" rx="4"/>
+    <rect x="6" y="6" width="28" height="8" fill="#FFFFFF" rx="2"/>
+  </g>
+  <g transform="translate(260,135)">
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#2E3A47">Track</text>
+    <text x="230" y="0" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#00ADEF">Cell</text>
+  </g>
+</svg>
