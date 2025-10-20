@@ -23,3 +23,37 @@ header { background: white; border-bottom: 1px solid #E6EDF3; }
 .signup .note { width: 100%; font-size: 13px; color: #5A6B7A; margin: 6px 0 0; }
 
 .foot { text-align: center; color: #6C7A87; font-size: 14px; padding-bottom: 30px; }
+/* Full-bleed header, no inner container */
+.site-header.flush {
+  background: #fff;
+  border-bottom: 1px solid #E6EDF3;
+  width: 100%;
+  /* optional polish: subtle elevation */
+  /* box-shadow: 0 2px 10px rgba(0,0,0,0.03); */
+}
+
+/* Big logo, flush left */
+.site-header.flush .logo {
+  height: 112px;            /* try 96–128px to taste */
+  display: block;
+  margin: 14px 0 14px 0;    /* top/bottom spacing, zero left/right so it's flush */
+}
+
+/* Keep your main content centered and narrower than the header */
+.wrap {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Optional: tighten hero spacing since the logo is taller now */
+.hero { padding-top: 32px; }
+
+/* Responsive sizing for small screens */
+@media (max-width: 640px) {
+  .site-header.flush .logo {
+    height: 78px;
+    margin: 10px 0;
+  }
+  .hero { padding-top: 20px; }
+}
