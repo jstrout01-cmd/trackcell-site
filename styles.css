@@ -13,3 +13,10 @@ body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-ser
 .signup input[type=email] { flex:1; padding:14px 16px; border:1px solid #BFD3E2; border-radius:10px; }
 .signup button { padding:14px 20px; background:var(--blue); color:white; border:none; border-radius:10px; font-weight:700; cursor:pointer; }
 .foot { text-align:center; color:#6C7A87; font-size:14px; padding-bottom:30px; }
+/* Bigger logo + clearer slogan */
+.site-header.flush .logo { height: 160px; margin: 16px 0; }   /* was 120px */
+.hero .tag { font-size: 22px; line-height: 1.7; color: #24303B; }  /* darker and larger */
+@media (max-width: 640px) {
+  .site-header.flush .logo { height: 110px; margin: 12px 0; }
+  .hero .tag { font-size: 18px; }
+}
