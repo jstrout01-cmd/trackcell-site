@@ -1,34 +1,35 @@
 :root {
+  --slate: #2E3A47;
   --blue: #00ADEF;
+  --cyan: #00D1C8;
   --bg: #F7F9FB;
   --text: #1B2430;
 }
-body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; margin:0; }
-.wrap { max-width: 960px; margin: 0 auto; padding: 20px; }
-.hero { text-align:left; padding:40px 20px; }
-.hero h1 { font-size: 52px; margin: 16px 0 8px; }
-.benefits { list-style:none; padding:0; margin:24px 0; display:grid; grid-template-columns:repeat(2,1fr); gap:12px 24px; }
-.benefits li { background:white; border:1px solid #E6EDF3; border-radius:12px; padding:12px 14px; }
-.signup { display:flex; flex-wrap:wrap; gap:10px; margin-top:20px; }
-.signup input[type=email] { flex:1; padding:14px 16px; border:1px solid #BFD3E2; border-radius:10px; }
-.signup button { padding:14px 20px; background:var(--blue); color:white; border:none; border-radius:10px; font-weight:700; cursor:pointer; }
-.foot { text-align:center; color:#6C7A87; font-size:14px; padding-bottom:30px; }
-/* Bigger logo + clearer slogan */
-.site-header.flush .logo { height: 160px; margin: 16px 0; }   /* was 120px */
-.hero .tag { font-size: 22px; line-height: 1.7; color: #24303B; }  /* darker and larger */
-@media (max-width: 640px) {
-  .site-header.flush .logo { height: 110px; margin: 12px 0; }
-  .hero .tag { font-size: 18px; }
-}
-/* Larger logo for better tagline visibility */
-.site-header.flush .logo {
-  height: 220px;           /* was 120px, adjust to taste */
-  margin: 10px 0;
-  display: block;
-}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+
+/* Full-bleed header */
+.site-header.flush { background: #fff; border-bottom: 1px solid #E6EDF3; width: 100%; }
+.site-header.flush .logo { height: 220px; display: block; margin: 14px 0; } /* larger for readable tagline */
+
+.wrap { max-width: 980px; margin: 0 auto; padding: 20px; }
+
+.hero { text-align: left; padding: 40px 20px; }
+.hero h1 { font-size: 52px; margin: 16px 0 8px; color: var(--slate); }
+.hero .tag { font-size: 22px; line-height: 1.7; color: #24303B; max-width: 760px; }
+
+.benefits { list-style: none; padding: 0; margin: 24px 0; display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px 24px; }
+.benefits li { background: white; border: 1px solid #E6EDF3; border-radius: 14px; padding: 12px 14px; }
+
+.signup { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.signup input[type=email] { flex: 1 1 280px; padding: 14px 16px; border: 1px solid #BFD3E2; border-radius: 12px; font-size: 16px; }
+.signup button { padding: 14px 20px; background: var(--blue); color: white; border: none; border-radius: 12px; font-weight: 700; cursor: pointer; }
+.signup .note { width: 100%; font-size: 13px; color: #5A6B7A; margin: 6px 0 0; }
+
+.foot { text-align: center; color: #6C7A87; font-size: 14px; padding-bottom: 30px; }
 
 @media (max-width: 640px) {
-  .site-header.flush .logo {
-    height: 160px;
-  }
+  .site-header.flush .logo { height: 160px; margin: 12px 0; }
+  .hero { padding: 28px 20px 32px; }
+  .hero .tag { font-size: 18px; }
 }
