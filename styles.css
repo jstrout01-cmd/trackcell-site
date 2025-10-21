@@ -1,0 +1,15 @@
+:root {
+  --blue: #00ADEF;
+  --bg: #F7F9FB;
+  --text: #1B2430;
+}
+body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; margin:0; }
+.wrap { max-width: 960px; margin: 0 auto; padding: 20px; }
+.hero { text-align:left; padding:40px 20px; }
+.hero h1 { font-size: 52px; margin: 16px 0 8px; }
+.benefits { list-style:none; padding:0; margin:24px 0; display:grid; grid-template-columns:repeat(2,1fr); gap:12px 24px; }
+.benefits li { background:white; border:1px solid #E6EDF3; border-radius:12px; padding:12px 14px; }
+.signup { display:flex; flex-wrap:wrap; gap:10px; margin-top:20px; }
+.signup input[type=email] { flex:1; padding:14px 16px; border:1px solid #BFD3E2; border-radius:10px; }
+.signup button { padding:14px 20px; background:var(--blue); color:white; border:none; border-radius:10px; font-weight:700; cursor:pointer; }
+.foot { text-align:center; color:#6C7A87; font-size:14px; padding-bottom:30px; }
