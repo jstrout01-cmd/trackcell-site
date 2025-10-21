@@ -10,7 +10,7 @@ html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); f
 
 /* Full-bleed header */
 .site-header.flush { background: #fff; border-bottom: 1px solid #E6EDF3; width: 100%; }
-.site-header.flush .logo { height: 220px; display: block; margin: 14px 0; } /* larger for readable tagline */
+.site-header.flush .logo { height: 150px; display: block; margin: 14px 0; } /* larger for readable tagline */
 
 .wrap { max-width: 980px; margin: 0 auto; padding: 20px; }
 
@@ -29,7 +29,7 @@ html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); f
 .foot { text-align: center; color: #6C7A87; font-size: 14px; padding-bottom: 30px; }
 
 @media (max-width: 640px) {
-  .site-header.flush .logo { height: 160px; margin: 12px 0; }
+  .site-header.flush .logo { height: 110px; margin: 12px 0; }
   .hero { padding: 28px 20px 32px; }
   .hero .tag { font-size: 18px; }
 }
